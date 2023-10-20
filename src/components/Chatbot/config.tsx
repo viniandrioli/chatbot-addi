@@ -5,8 +5,7 @@ import { BotAvatar } from '../BotAvatar';
 const config = {
   botName: 'Addi Assistent',
   initialMessages: [
-    createChatBotMessage(`Hi I'm Addi Assistent`, {}),
-    createChatBotMessage(`What are you looking for?`, {}),
+    createChatBotMessage(`Hola, cuéntame ¿Qué buscas?`, {}),
   ],
   customStyles: {
     botMessageBox: {

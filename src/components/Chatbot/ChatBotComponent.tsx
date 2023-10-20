@@ -11,7 +11,8 @@ export const ChatbotComponent = () => {
         config={config}
         messageParser={MessageParser}
         actionProvider={ActionProvider}
-        headerText="Addi"
+        headerText="Sugerencias de tiendas"
+        placeholderText={"   "}
       />
     </div>
   );
